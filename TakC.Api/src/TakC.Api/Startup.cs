@@ -27,7 +27,6 @@ namespace TakC.Api {
             services.AddControllers ();
             services.RegisterServiceForwarder<ITaxisService> ("taxis-service");
             services.RegisterServiceForwarder<IBikeDeliveryService> ("bikedelivery-service");
-            services.addsc
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
